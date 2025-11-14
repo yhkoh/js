@@ -1,0 +1,20 @@
+반복 While문 작성
+o 1부터 6까지 숫자 생성하기
+o 1부터 6까지 더하기
+
+<script>
+n = 0;
+while(n<=6) {
+  n = n+1;
+  document.write(n + '<br>');
+}
+===============
+n = 1; sum = 0;
+while(n<=6) {
+  sum = sum+n;
+  n = n+1;
+}
+document.write('<b>' + n + '</b>');
+
+</script> 
+
